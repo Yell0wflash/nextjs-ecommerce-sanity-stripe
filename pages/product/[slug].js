@@ -10,7 +10,11 @@ import {useStateContext} from '../../context/StateContext';
 const ProductDetail = ({ product, products }) => {
 	const { image, name, details, price } = product;
 	const [index, setIndex] = useState(0);
-    const { incQty, decQty, qty, onAddToCart } = useStateContext();
+    const { incQty, decQty, qty, onAddToCart, setShowCart } = useStateContext();
+	const onBuyNow = () => {
+		onAddToCart(product, qty);
+		setShowCart(true);
+	}
 
 	return (
 		<div>
@@ -76,7 +80,7 @@ const ProductDetail = ({ product, products }) => {
 						>
 							Add to cart
 						</button>
-						<button type='button' className='buy-now'>
+						<button type='button' className='buy-now' onClick={onBuyNow}>
 							Buy Now
 						</button>
 					</div>
