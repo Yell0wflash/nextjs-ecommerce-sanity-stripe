@@ -60,7 +60,7 @@ const ProductDetail = ({ product, products }) => {
 							<span className='minus' onClick={decQty}>
 								<AiOutlineMinus />
 							</span>
-							<span className='num' onClick=''>
+							<span className='num'>
 								{qty}
 							</span>
 							<span className='plus' onClick={incQty}>
@@ -76,8 +76,8 @@ const ProductDetail = ({ product, products }) => {
 						>
 							Add to cart
 						</button>
-						<button type='button' className='buy-now' onClick=''>
-							Buy Nowt
+						<button type='button' className='buy-now'>
+							Buy Now
 						</button>
 					</div>
 				</div>
