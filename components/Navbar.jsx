@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<div className='navbar-container'>
 			<p className='logo'>
-				<Link href='/'>TMN Headphones</Link>
+				<Link href='/'>Trịnh Minh Nhật&apos;s Store</Link>
 			</p>
 			<button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
 				<AiOutlineShopping />

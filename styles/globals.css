@@ -242,10 +242,9 @@ span.text-red {
 }
 .footer-banner-image {
 	position: absolute;
-	/* top: -35%;
-  left: 8%; */
-	top: -25%;
-	left: 25%;
+	top: -20%;
+	left: 30%;
+	max-width: 450px;
 }
 .banner-desc .right {
 	line-height: 1.4;
@@ -292,11 +291,17 @@ span.text-red {
 	gap: 10px;
 	justify-content: center;
 }
+
 .footer-container .icons {
 	font-size: 30px;
 	display: flex;
 	gap: 10px;
 }
+
+.footer-container a {
+	color: #f02d34;
+}
+
 .cart-heading {
 	display: flex;
 	align-items: center;

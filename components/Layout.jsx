@@ -6,7 +6,8 @@ const Layout = ({ children }) => {
 	return (
 		<div className='layout'>
 			<Head>
-				<title>TMN Store</title>
+				<title>Trịnh Minh Nhật&apos;s Store</title>
+				<link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
 			</Head>
 			<header>
 				<Navbar />
