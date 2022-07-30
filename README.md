@@ -6,7 +6,7 @@ A fully responsive modern Full Stack eCommerce website with Payments functionali
 Live: [**https://nextjs-ecommerce-sanity-stripe.netlify.app**](https://nextjs-ecommerce-sanity-stripe.netlify.app)
 
 ## Technologies Used
-- Next 12.x
+- Next.js 12.x
 - React 18.x
 - Sanity
 - Stripe
